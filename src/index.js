@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './front/css/index.css';
 import Galvene from './front/Galvene';
 import reportWebVitals from './front/reportWebVitals';
+import './back/i18n.jsx'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
