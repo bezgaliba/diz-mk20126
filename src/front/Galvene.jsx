@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import SetLangIcon from './../back/controller';
 
 function Galvene() {
 
@@ -13,7 +14,6 @@ function Galvene() {
 
   function onLangChange(eventKey){
     i18n.changeLanguage(eventKey);
-    console.log(eventKey)
   }
   return (
     <>
@@ -25,7 +25,7 @@ function Galvene() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#home">Home</Nav.Link>
-              <NavDropdown onSelect={onLangChange} title="Dropdown" id="basic-nav-dropdown">
+              <NavDropdown className="dropdown" onSelect={onLangChange} title={<SetLangIcon currentLanguage={i18n.language} />} id="basic-nav-dropdown">
                 <NavDropdown.Item eventKey='en'>{t('English')}</NavDropdown.Item>
                 <NavDropdown.Item eventKey='lv'>{t('Latvian')}</NavDropdown.Item>
               </NavDropdown>
