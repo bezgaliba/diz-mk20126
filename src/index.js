@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './front/index.css';
-import App from './front/App';
+import './front/css/index.css';
+import Galvene from './front/Galvene';
 import reportWebVitals from './front/reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Galvene />
   </React.StrictMode>
 );
 
