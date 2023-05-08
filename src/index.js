@@ -6,12 +6,14 @@ import reportWebVitals from './front/reportWebVitals';
 import './back/i18n.jsx'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Titulkonteineris from './front/Titulkonteineris';
+import ParMani from './front/ParMani';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Galvene />
     <Titulkonteineris />
+    <ParMani />
   </React.StrictMode>
 );
 
