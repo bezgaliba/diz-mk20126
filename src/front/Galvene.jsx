@@ -21,6 +21,7 @@ function Galvene() {
       <Navbar bg="light" expand="lg">
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Brand>{t('Brand')}</Navbar.Brand>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="m-auto">
               <Nav.Link href="#myStory">{t('myStory')}</Nav.Link>
@@ -38,9 +39,6 @@ function Galvene() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <h1>
-        {t('Hello')}
-      </h1>
     </Suspense>
     </>
   );

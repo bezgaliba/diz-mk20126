@@ -2,6 +2,14 @@
     "translation": {
         "Hello": "Labdien!",
         "English": "Angļu",
-        "Latvian": "Latviešu"
+        "Latvian": "Latviešu",
+        "Home": "Mājas",
+        "myStory": "Mans Stāsts",
+        "cityAntics": "Pilsētas Piedzīvojumi",
+        "wildlife": "Savvaļa",
+        "pointsOFInterest": "Piestātnes",
+        "timeline": "Laika Līnija",
+        "HeroText": "Pats esmu savs dzīves noteicējs!",
+        "Brand": "Māra dzīve!"
     }
 }

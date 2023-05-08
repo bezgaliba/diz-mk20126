@@ -2,6 +2,14 @@
     "translation": {
         "Hello": "Good afternoon!",
         "English": "English",
-        "Latvian": "Latvian"
+        "Latvian": "Latvian",
+        "Home": "Home",
+        "myStory": "My Story",
+        "cityAntics": "City Antics",
+        "wildlife": "Wildlife",
+        "pointsOFInterest": "Points of Interest",
+        "timeline": "Timeline",
+        "HeroText": "Letting myself be the storyteller!",
+        "Brand": "Maris' life"
     }
 }

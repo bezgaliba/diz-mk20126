@@ -5,11 +5,13 @@ import Galvene from './front/Galvene';
 import reportWebVitals from './front/reportWebVitals';
 import './back/i18n.jsx'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Titulkonteineris from './front/Titulkonteineris';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Galvene />
+    <Titulkonteineris />
   </React.StrictMode>
 );
 
