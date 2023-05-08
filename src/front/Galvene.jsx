@@ -20,11 +20,16 @@ function Galvene() {
     <Suspense fallback="Load...">
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
+            <Nav className="m-auto">
+              <Nav.Link href="#myStory">{t('myStory')}</Nav.Link>
+              <Nav.Link href="#cityAntics">{t('cityAntics')}</Nav.Link>
+              <Nav.Link href="#wildlife">{t('wildlife')}</Nav.Link>
+              <Nav.Link href="#pointsOFInterest">{t('pointsOFInterest')}</Nav.Link>
+              <Nav.Link href="#timeline">{t('timeline')}</Nav.Link>
+            </Nav>
+            <Nav className="ms-auto">
               <NavDropdown className="dropdown" onSelect={onLangChange} title={<SetLangIcon currentLanguage={i18n.language} />} id="basic-nav-dropdown">
                 <NavDropdown.Item eventKey='en'>{t('English')}</NavDropdown.Item>
                 <NavDropdown.Item eventKey='lv'>{t('Latvian')}</NavDropdown.Item>
