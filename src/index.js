@@ -7,6 +7,7 @@ import './back/i18n.jsx'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Titulkonteineris from './front/Titulkonteineris';
 import ParMani from './front/ParMani';
+import Pilsetas from './front/Pilsetas';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Galvene />
     <Titulkonteineris />
     <ParMani />
+    <Pilsetas />
   </React.StrictMode>
 );
 
