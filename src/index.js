@@ -8,6 +8,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Titulkonteineris from './front/Titulkonteineris';
 import ParMani from './front/ParMani';
 import Pilsetas from './front/Pilsetas';
+import Slaidshovs from './front/Slaidshovs';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
     <Titulkonteineris />
     <ParMani />
     <Pilsetas />
+    <Slaidshovs />
   </React.StrictMode>
 );
 
