@@ -13,7 +13,7 @@
   
   .container {
     background-color: lightgray;
-    padding: 1.875rem;
+    padding: 7rem;
     display: flex;
     align-items: center;
   }
@@ -97,4 +97,19 @@
     border: none;
     border-radius: 0.25rem;
     cursor: pointer;
+  }
+
+  @media screen and (min-width: 768px) {
+    .slideshow {
+      width: 50%; /* Adjust the width as desired for large screens */
+      padding-bottom: 20%; /* Adjust the height-to-width ratio for large screens */
+    }
+  }
+  
+  /* Media Queries for Small Screens */
+  @media screen and (max-width: 480px) {
+    .slideshow {
+      width: 90%; /* Adjust the width as desired for small screens */
+      padding-bottom: 50%; /* Adjust the height-to-width ratio for small screens */
+    }
   }

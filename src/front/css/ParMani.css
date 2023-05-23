@@ -2,46 +2,69 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
 .about-me-items {
-    display: flex;
-    justify-content: center;
-    padding: 0 100px;
-    height: 500px;
-  }
+  display: flex;
+  justify-content: center;
+  padding: 0 100px;
+  height: 500px;
+}
 
 .about-me {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-width: 100%;
-margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .paragraph-grid {
-width: 50%;
+  width: 50%;
 }
 
 .paragraph-header {
-font-size: 32px;
-font-family: 'Playfair Display', serif;
+  font-size: 2rem; /* Adjust the font size as needed */
+  font-family: 'Playfair Display', serif;
 }
 
 .paragraph-header-top {
-font-size: 48px;
-font-family: 'Playfair Display', serif;
+  font-size: 3rem; /* Adjust the font size as needed */
+  font-family: 'Playfair Display', serif;
 }
 
 .paragraph-container {
-font-size: 12px;
-font-family: 'Source Sans Pro', serif;
+  font-size: 1rem; /* Adjust the font size as needed */
+  font-family: 'Source Sans Pro', serif;
 }
 
 .image-container {
-margin: auto;
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  margin: auto;
 }
 
-.header{
-    text-align: right;
-    margin-right: 300px;
-    margin-top: 50px;
+.es {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto;
+}
+
+.header {
+  text-align: right;
+  margin-right: 10%; /* Adjust the margin as needed */
+  margin-top: 50px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .paragraph-header {
+    font-size: 1rem; /* 50% smaller font size */
+  }
+
+  .paragraph-header-top {
+    font-size: 1.5rem; /* 50% smaller font size */
+  }
+
+  .paragraph-container {
+    font-size: 0.5rem; /* 50% smaller font size */
+  }
 }
