@@ -19,13 +19,13 @@ function ParMani() {
             </div>
             <div className="paragraph-grid">
               <div className="paragraph-header">
-                <p className='paragraph-header-top'>Chapter 1 - <b>The Journey</b></p><p>sis ir virsraksts vizualizacijai</p>
+                <p className='paragraph-header-top'><b>{t('Ieskats')}</b>{t('Manadzive')}</p><p>{t('Welcome')}</p>
               </div>
               <div className="paragraph-container">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a lorem vitae nunc sollicitudin luctus ac in erat. Aenean euismod magna quis eros laoreet elementum.</p>
+                <p>{t('Aboutme')}</p>
               </div>
               <div className="paragraph-container">
-                <p>Phasellus tristique dolor vel arcu posuere, eu rutrum quam bibendum. Curabitur vel justo eget mi efficitur malesuada. Duis eget feugiat massa.</p>
+                <p>{t('Insight')}</p>
               </div>
             </div>
           </div>

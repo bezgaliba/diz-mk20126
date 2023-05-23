@@ -3,7 +3,7 @@ import './css/Titulkonteineris.css';
 import i18n from 'i18next';
 import { useTranslation } from 'react-i18next';
 import { Container } from 'react-bootstrap';
-import heroImage from './resources/title.jpg';
+import heroImage from './resources/heroimg.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import ParMani from './ParMani';

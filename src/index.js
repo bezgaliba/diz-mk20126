@@ -12,6 +12,7 @@ import Slaidshovs from './front/Slaidshovs';
 import Riga from './front/Riga';
 import Kajene from './front/Kajene';
 import Poga from './front/Poga';
+import LaikaLinija from './front/Laikalinija';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
     <Galvene />
     <Titulkonteineris />
     <ParMani />
+    <LaikaLinija />
     <Pilsetas />
     <Slaidshovs />
     <Riga />
