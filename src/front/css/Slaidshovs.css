@@ -32,7 +32,7 @@
 
 .highlighted-text {
   position: absolute;
-  top: 0.625rem;
+  bottom: 0.625rem;
   left: 0.625rem;
   color: #fff;
   font-size: 1.125rem;

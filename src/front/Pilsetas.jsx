@@ -27,7 +27,7 @@ function Pilsetas() {
 
   return (
     <>
-      <div className="container">
+      <div className="cont">
         <div className="textContainer">
           <span className="text">
             Šeit ir arī apskatāmi interesanti ciemi, kam es ikdienā pabraucu garām. Ļoti mīļi

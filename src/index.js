@@ -9,6 +9,7 @@ import Titulkonteineris from './front/Titulkonteineris';
 import ParMani from './front/ParMani';
 import Pilsetas from './front/Pilsetas';
 import Slaidshovs from './front/Slaidshovs';
+import Riga from './front/Riga';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
     <ParMani />
     <Pilsetas />
     <Slaidshovs />
+    <Riga />
   </React.StrictMode>
 );
 
