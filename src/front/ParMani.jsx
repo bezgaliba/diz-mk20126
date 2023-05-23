@@ -2,7 +2,7 @@ import react, { useRef  } from 'react';
 import './css/ParMani.css';
 import i18n from 'i18next';
 import { useTranslation } from 'react-i18next';
-import es from './resources/me.jpg';
+import es from './resources/me.jpeg';
 
 function ParMani() {
 
