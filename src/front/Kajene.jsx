@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p className="footer-text">
-        Web Design Course • Latvian University • All rights reserved
+        Maris Kalnins for Web Design Course • Latvian University • All rights reserved • 2023
       </p>
     </footer>
   );

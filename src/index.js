@@ -11,6 +11,7 @@ import Pilsetas from './front/Pilsetas';
 import Slaidshovs from './front/Slaidshovs';
 import Riga from './front/Riga';
 import Kajene from './front/Kajene';
+import Poga from './front/Poga';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,6 +23,7 @@ root.render(
     <Slaidshovs />
     <Riga />
     <Kajene />
+    <Poga />
   </React.StrictMode>
 );
 

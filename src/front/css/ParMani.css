@@ -22,49 +22,48 @@
 }
 
 .paragraph-header {
-  font-size: 2rem; /* Adjust the font size as needed */
+  font-size: 2rem;
   font-family: 'Playfair Display', serif;
 }
 
 .paragraph-header-top {
-  font-size: 3rem; /* Adjust the font size as needed */
+  font-size: 3rem;
   font-family: 'Playfair Display', serif;
 }
 
 .paragraph-container {
-  font-size: 1rem; /* Adjust the font size as needed */
+  font-size: 1rem;
   font-family: 'Source Sans Pro', serif;
 }
 
 .image-container {
   display: flex;
-  justify-content: center; /* Center the image horizontally */
-  align-items: center; /* Center the image vertically */
+  justify-content: center;
+  align-items: center;
   margin: auto;
 }
 
 .es {
-  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  max-width: 100%;
   height: auto;
 }
 
 .header {
   text-align: right;
-  margin-right: 10%; /* Adjust the margin as needed */
+  margin-right: 10%;
   margin-top: 50px;
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
   .paragraph-header {
-    font-size: 1rem; /* 50% smaller font size */
+    font-size: 1rem;
   }
 
   .paragraph-header-top {
-    font-size: 1.5rem; /* 50% smaller font size */
+    font-size: 1.5rem;
   }
 
   .paragraph-container {
-    font-size: 0.5rem; /* 50% smaller font size */
+    font-size: 0.5rem;
   }
 }
