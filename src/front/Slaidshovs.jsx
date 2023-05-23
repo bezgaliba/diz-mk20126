@@ -42,10 +42,9 @@ const Slaidshovs = () => {
   };
 
   useEffect(() => {
-    // Reset transition state after the slide transition is complete
     const transitionTimeout = setTimeout(() => {
       setIsTransitioning(false);
-    }, 500); // Adjust the timeout value to match the transition duration in CSS
+    }, 500);
 
     return () => clearTimeout(transitionTimeout);
   }, [currentIndex]);
