@@ -25,14 +25,16 @@ const LaikaLinija = () => {
   }, []);
 
   return (
-    <div className="timeline-container">
-      <h1 className="heading">{t('Laikalinija')}</h1>
-      <img
-        ref={imageRef}
-        src={imgen}
-        alt="Laikalinija"
-        className="timeline"
-      />
+    <div id="Laikalinija">
+      <div className="timeline-container">
+        <h1 className="heading">{t('Laikalinija')}</h1>
+        <img
+          ref={imageRef}
+          src={imgen}
+          alt="Laikalinija"
+          className="timeline"
+        />
+      </div>
     </div>
   );
 };

@@ -1,6 +1,10 @@
 {
     "translation": {
-        "Hello": "Labdien!",
+        "ParMani": "Par Mani",
+        "LL": "Laika Līnija",
+        "Pilsetas": "Mīļas vietiņas",
+        "Slaidshovs": "Albums",
+        "Riga": "Rīga",
         "English": "Angļu",
         "Latvian": "Latviešu",
         "Home": "Mājas",
@@ -10,7 +14,7 @@
         "pointsOFInterest": "Piestātnes",
         "timeline": "Laika Līnija",
         "HeroText": "Pats esmu savs dzīves noteicējs!",
-        "Brand": "Māra dzīve!",
+        "Brand": "Māra ceļš!",
         "Ieskats": "Ieskats ",
         "Manadzive": "Manā ceļā uz LU",
         "Welcome": "'Sveicieni, pievienojaties man ceļā uz Latvijas Universitāti!'",

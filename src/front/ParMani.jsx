@@ -9,7 +9,7 @@ function ParMani() {
     const { t } = useTranslation();
 
     return (
-      <>
+      <div id="par-mani">
         <div className="about-me-items">
           <div className="about-me">
             <div className="image-grid">
@@ -30,7 +30,7 @@ function ParMani() {
             </div>
           </div>
         </div>
-      </>
+      </div>
     );
   }
 

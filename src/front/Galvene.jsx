@@ -1,4 +1,4 @@
-import { useEffect, Suspense, useTransition } from 'react';
+import { useEffect, Suspense, useTransition, useRef } from 'react';
 import './css/Galvene.css';
 import i18n from 'i18next';
 import { useTranslation } from 'react-i18next';
@@ -7,6 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import SetLangIcon from './../back/controller';
+import { Link } from 'react-scroll';
 
 function Galvene() {
 
@@ -24,11 +25,21 @@ function Galvene() {
           <Navbar.Brand>{t('Brand')}</Navbar.Brand>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="m-auto">
-              <Nav.Link href="#myStory">{t('myStory')}</Nav.Link>
-              <Nav.Link href="#cityAntics">{t('cityAntics')}</Nav.Link>
-              <Nav.Link href="#wildlife">{t('wildlife')}</Nav.Link>
-              <Nav.Link href="#pointsOFInterest">{t('pointsOFInterest')}</Nav.Link>
-              <Nav.Link href="#timeline">{t('timeline')}</Nav.Link>
+              <Nav.Link>
+                <Link to="par-mani" smooth={true} duration={500} offset={-70}>{t('Par Mani')}</Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="Laikalinija" smooth={true} duration={500} offset={-70}>{t('LL')}</Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="Pilsetas" smooth={true} duration={500} offset={-70}>{t('Pilsetas')}</Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="Slaidshovs" smooth={true} duration={500} offset={-70}>{t('Slaidshovs')}</Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="Riga" smooth={true} duration={500} offset={-70}>{t('Riga')}</Link>
+              </Nav.Link>
             </Nav>
             <Nav className="ms-auto">
               <NavDropdown className="dropdown" onSelect={onLangChange} title={<SetLangIcon currentLanguage={i18n.language} />} id="basic-nav-dropdown">

@@ -26,7 +26,7 @@ function Pilsetas() {
   };
 
   return (
-    <>
+    <div id="Pilsetas">
       <div className="cont">
         <div className="textContainer">
           <span className="text">
@@ -66,7 +66,7 @@ function Pilsetas() {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 }
 

@@ -50,20 +50,22 @@ const Slaidshovs = () => {
   }, [currentIndex]);
 
   return (
-    <div className="slideshow">
-      {images.map((image, index) => (
-        <div className={`slide ${index === currentIndex ? 'active' : ''}`} key={index}>
-          <img className="slideimg" src={image.src} alt={`Slide ${index}`} />
-          <div className="highlighted-text">{image.text}</div>
+    <div id="Slaidshovs">
+      <div className="slideshow">
+        {images.map((image, index) => (
+          <div className={`slide ${index === currentIndex ? 'active' : ''}`} key={index}>
+            <img className="slideimg" src={image.src} alt={`Slide ${index}`} />
+            <div className="highlighted-text">{image.text}</div>
+          </div>
+        ))}
+        <div className="navigation">
+          <button className="arrow prev" onClick={handlePrev}>
+            <FontAwesomeIcon icon={faChevronLeft} />
+          </button>
+          <button className="arrow next" onClick={handleNext}>
+            <FontAwesomeIcon icon={faChevronRight} />
+          </button>
         </div>
-      ))}
-      <div className="navigation">
-        <button className="arrow prev" onClick={handlePrev}>
-          <FontAwesomeIcon icon={faChevronLeft} />
-        </button>
-        <button className="arrow next" onClick={handleNext}>
-          <FontAwesomeIcon icon={faChevronRight} />
-        </button>
       </div>
     </div>
   );

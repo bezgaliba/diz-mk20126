@@ -1,5 +1,10 @@
 {
     "translation": {
+        "ParMani": "About Me",
+        "LL": "Timeline",
+        "Pilsetas": "Dear Places",
+        "Slaidshovs": "Album",
+        "Riga": "Riga",
         "Hello": "Good afternoon!",
         "English": "English",
         "Latvian": "Latvian",
@@ -10,7 +15,7 @@
         "pointsOFInterest": "Points of Interest",
         "timeline": "Timeline",
         "HeroText": "Letting myself be the storyteller!",
-        "Brand": "Maris' life",
+        "Brand": "Maris' route!",
         "Ieskats": "Intro ",
         "Manadzive": "to my LU route",
         "Welcome": "'Greetings, join me on a trip to Latvian University'",
