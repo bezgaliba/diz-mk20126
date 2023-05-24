@@ -12,6 +12,7 @@ function Riga (){
     return(
     <div id="Riga">
       <div className="square-container">
+        <h1 className='riga-head'>{t("RigaTitle")}</h1>
         <div className="row-cont">
           <img src={meverm} alt="bildite1" className="imageDesc2" />
           <div className="textDesc1">{t("RigaDesc1")}</div>

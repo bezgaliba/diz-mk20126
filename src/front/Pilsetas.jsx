@@ -31,7 +31,7 @@ function Pilsetas() {
         <div className="textContainer">
           <span className="text">
             <h1 className="headingP">{t('PilsTitle')}</h1>
-            <p>{t('PilsDesc')}</p>
+            <p className="descP">{t('PilsDesc')}</p>
           </span>
         </div>
         <div className="imageContainer">

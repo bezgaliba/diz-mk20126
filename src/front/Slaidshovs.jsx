@@ -57,6 +57,7 @@ const Slaidshovs = () => {
   return (
     <div id="Slaidshovs">
       <h1 className="slideshow-header">{t('album')}</h1>
+      <p className="slideshow-desc">{t("SlideDesc")}</p>
       <div className="slideshow">
         {images.map((image, index) => (
           <div className={`slide ${index === currentIndex ? 'active' : ''}`} key={index}>

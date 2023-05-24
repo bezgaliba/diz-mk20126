@@ -10,6 +10,17 @@
   padding-bottom: 7rem;
 }
 
+.slideshow-desc{
+  margin-top: 3rem;
+  font-size: 22px;
+  font-family: 'Source Sans Pro', serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: 15rem;
+  width: 35rem;
+  margin-bottom: -3.5rem;
+}
+
 .slideshow-header {
   font-size: 3rem;
   font-family: 'Playfair Display', serif;

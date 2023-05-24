@@ -26,7 +26,7 @@ function Galvene() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="m-auto">
               <Nav.Link>
-                <Link to="par-mani" smooth={true} duration={500} offset={-70}>{t('Par Mani')}</Link>
+                <Link to="par-mani" smooth={true} duration={500} offset={-70}>{t('ParMani')}</Link>
               </Nav.Link>
               <Nav.Link>
                 <Link to="Laikalinija" smooth={true} duration={500} offset={-70}>{t('LL')}</Link>
