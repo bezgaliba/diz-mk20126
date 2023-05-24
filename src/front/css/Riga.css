@@ -59,3 +59,39 @@
     font-size: 18px;
     font-family: 'Source Sans Pro', serif;
   }
+
+  @media (max-width: 1200px) {
+    .textDesc2, .textDesc1 {
+      font-size: 0.75rem;
+    }
+
+    .imageDesc1, .imageDesc2 {
+      width: 12rem;
+      height: 12rem;
+    }
+
+  }
+  
+  @media (max-width: 750px) {
+    .textDesc2, .textDesc1 {
+      font-size: 0.75rem;
+
+    }
+
+    .textDesc2 {
+      margin-bottom: -7rem;
+    }
+
+    .textDesc1 {
+      margin-top: -7rem;
+    }
+
+    .imageDesc1, .imageDesc2 {
+      width: 8rem;
+      height: 8rem;
+    }
+  }
+  
+  @media (max-width: 530px) {
+
+  }

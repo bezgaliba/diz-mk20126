@@ -59,9 +59,36 @@
   margin-top: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+  .about-me {
+    margin-top: 13px;
+  }
+  .es {
+    max-width: 70%;
+    height: auto;
+    margin-left: 3rem;
+  }
   .paragraph-header {
-    font-size: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .paragraph-header-top {
+    font-size: 2rem;
+  }
+
+  .paragraph-container {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .es {
+    max-width: 50%;
+    height: auto;
+    margin-left: 3rem;
+  }
+  .paragraph-header {
+    font-size: 0.8rem;
   }
 
   .paragraph-header-top {
@@ -70,5 +97,24 @@
 
   .paragraph-container {
     font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 530px) {
+  .es {
+    max-width: 30%;
+    height: auto;
+    margin-left: 3rem;
+  }
+  .paragraph-header {
+    font-size: 0.6rem;
+  }
+
+  .paragraph-header-top {
+    font-size: 1.3rem;
+  }
+
+  .paragraph-container {
+    font-size: 0.3rem;
   }
 }

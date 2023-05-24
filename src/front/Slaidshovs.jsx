@@ -6,7 +6,6 @@ import kvs from './resources/KVS.jpg';
 import iekspagalms from './resources/pagalms.jpg';
 import darbs from './resources/darbs.jpg';
 import darbs2 from './resources/darbs2.jpeg';
-import senite from './resources/senite_length.jpg';
 import { useTranslation } from 'react-i18next';
 
 const Slaidshovs = () => {
@@ -22,10 +21,6 @@ const Slaidshovs = () => {
     {
       src: kvs,
       text: t('kvs'),
-    },
-    {
-      src: senite,
-      text: t('senite'),
     },
     {
       src: darbs2,

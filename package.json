@@ -1,4 +1,5 @@
 {
+  "homepage": "https://bezgaliba.github.io/diz-mk20126/",
   "name": "diz-mk20126",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +10,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
+    "gh-pages": "^5.0.0",
     "i18next": "^22.4.15",
     "i18next-browser-languagedetector": "^7.0.1",
     "react": "^18.2.0",
@@ -25,7 +27,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build", "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
