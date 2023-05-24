@@ -14,7 +14,7 @@ function Pilsetas() {
   const [selectedHeading, setSelectedHeading] = useState('');
   const [selectedText, setSelectedText] = useState('');
 
-  const openModal = (image, heading, text) => {
+  const openModal = (image, heading, text, t) => {
     setSelectedImage(image);
     setSelectedHeading(heading);
     setSelectedText(text);
@@ -30,23 +30,24 @@ function Pilsetas() {
       <div className="cont">
         <div className="textContainer">
           <span className="text">
-            Šeit ir arī apskatāmi interesanti ciemi, kam es ikdienā pabraucu garām. Ļoti mīļi
+            <h1 className="headingP">{t('PilsTitle')}</h1>
+            <p>{t('PilsDesc')}</p>
           </span>
         </div>
         <div className="imageContainer">
-          <div className="imageItem" onClick={() => openModal(birini, 'Bīriņi', 'Šī ir mana bērnība! :) 1')}>
+        <div className="imageItem" onClick={() => openModal(birini, 'Bīriņi', t('Birini'))}>
             <img src={birini} alt="Birinu pils" className="image" />
             <h2 className="imageCaption">Bīriņi</h2>
           </div>
-          <div className="imageItem" onClick={() => openModal(ragana, 'Ragana', 'Šī ir mana bērnība! :) 2 ')}>
+          <div className="imageItem" onClick={() => openModal(ragana, 'Ragana', t('Ragana'))}>
             <img src={ragana} alt="Raganas kekis" className="image" />
             <h2 className="imageCaption">Ragana</h2>
           </div>
-          <div className="imageItem" onClick={() => openModal(senite, 'Sēnīte', 'Šī ir mana bērnība! :) 3')}>
+          <div className="imageItem" onClick={() => openModal(senite, 'Sēnīte', t('Senite'))}>
             <img src={senite} alt="Senites restorans" className="image" />
             <h2 className="imageCaption">Sēnīte</h2>
           </div>
-          <div className="imageItem" onClick={() => openModal(vangazi, 'Vangaži', 'Šī ir mana bērnība! :) 4')}>
+          <div className="imageItem" onClick={() => openModal(vangazi, 'Vangaži', t('Vangazi'))}>
             <img src={vangazi} alt="Vangazi grafiti" className="image" />
             <h2 className="imageCaption">Vangaži</h2>
           </div>

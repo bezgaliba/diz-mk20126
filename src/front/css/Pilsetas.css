@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
 .modalText{
-    font-size: 32px;
+    font-size: 24px;
     font-family: 'Source Sans Pro', serif;
     }
 
@@ -29,6 +29,7 @@
   
   .imageContainer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-right: 5rem;
   }
@@ -42,8 +43,8 @@
   }
   
   .image {
-    width: 6rem;
-    height: 6rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     border: 0.1875rem solid black;
   }
@@ -76,7 +77,9 @@
   }
   
   .modalContent {
-    background-color: white;
+    text-align: center;
+    width: 50rem;
+    background-color: rgb(236, 240, 198);
     padding: 2rem;
     border-radius: 0.25rem;
     display: flex;
@@ -99,17 +102,32 @@
     cursor: pointer;
   }
 
+  .headingP {
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+  }
+
   @media screen and (min-width: 768px) {
     .slideshow {
-      width: 50%; /* Adjust the width as desired for large screens */
-      padding-bottom: 20%; /* Adjust the height-to-width ratio for large screens */
+      width: 50%;
+      padding-bottom: 20%;
+    }
+    .image {
+      width: 6rem;
+      height: 6rem;
     }
   }
-  
-  /* Media Queries for Small Screens */
+
   @media screen and (max-width: 480px) {
     .slideshow {
-      width: 90%; /* Adjust the width as desired for small screens */
-      padding-bottom: 50%; /* Adjust the height-to-width ratio for small screens */
+      width: 90%;
+      padding-bottom: 50%;
+    }
+    .image {
+      width: 2rem;
+      height: 2rem;
     }
   }
+
+  

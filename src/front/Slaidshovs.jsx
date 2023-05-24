@@ -2,6 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import './css/Slaidshovs.css';
+import kvs from './resources/KVS.jpg';
+import iekspagalms from './resources/pagalms.jpg';
+import darbs from './resources/darbs.jpg';
+import darbs2 from './resources/darbs2.jpeg';
+import senite from './resources/senite_length.jpg';
 
 const Slaidshovs = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -9,20 +14,24 @@ const Slaidshovs = () => {
 
   const images = [
     {
-      src: 'https://fastly.picsum.photos/id/15/2500/1667.jpg?hmac=Lv03D1Y3AsZ9L2tMMC1KQZekBVaQSDc1waqJ54IHvo4',
+      src: iekspagalms,
       text:
         'non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."',
     },
     {
-      src: 'https://fastly.picsum.photos/id/17/2500/1667.jpg?hmac=HD-JrnNUZjFiP2UZQvWcKrgLoC_pc_ouUSWv8kHsJJY',
+      src: kvs,
       text: 'Image 2',
     },
     {
-      src: 'https://fastly.picsum.photos/id/21/3008/2008.jpg?hmac=T8DSVNvP-QldCew7WD4jj_S3mWwxZPqdF0CNPksSko4',
+      src: senite,
+      text: 'Image 2',
+    },
+    {
+      src: darbs2,
       text: 'Image 3',
     },
     {
-      src: 'https://fastly.picsum.photos/id/28/4928/3264.jpg?hmac=GnYF-RnBUg44PFfU5pcw_Qs0ReOyStdnZ8MtQWJqTfA',
+      src: darbs,
       text: 'Image 4',
     },
   ];

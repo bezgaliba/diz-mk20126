@@ -2,7 +2,7 @@
     "translation": {
         "ParMani": "About Me",
         "LL": "Timeline",
-        "Pilsetas": "Dear Places",
+        "Pilsetas": "Dearest Places",
         "Slaidshovs": "Album",
         "Riga": "Riga",
         "Hello": "Good afternoon!",
@@ -21,6 +21,14 @@
         "Welcome": "'Greetings, join me on a trip to Latvian University'",
         "Aboutme": "My name is Maris and I am a 3rd year student at LU, field of computer science I'll be giving you an insight into my daily life as a student, traveling from my dear home all the way to the best university in Latvia.",
         "Insight": "Each day I travel around 80km to and from University at Raiņa boulevard 19 whilst taking really green and scenic route in my car. I am grateful for this opportunity I've been handed. So what are you waiting for? Let's go, travel buddy!",
-        "Laikalinija": "My daily timeline"
+        "Laikalinija": "My daily timeline",
+        "PilsTitle": "Villages I travel through",
+        "PilsDesc": "These are some of the places I go through each day. Each one for me is pretty special as I have many memories associated with them.",
+        "Birini": "I actually live here so of course I know this place by heart. You can visit the Bīriņi castle once visiting here where the imfamous TV serial 'Ugunsgrēks' was filmed. This is where my journey begins to Latvian University",
+        "Ragana": "This is the first city I go through each day. I used to go to school here and I bypass it each day til this day on my way to Latvian University. Here is also where majority of my friends live.",
+        "Senite": "Though I might not have the closest of memories here, I always find this place significant when traveling through. You can spend a really nice time at Rāmkalni family park as well as visit the historically famous Sēnīte restaurant that is closed today. ",
+        "Vangazi": "This is the last village I go through on my way to Latvian University. Some of my friends live here so naturally I might stop here on the way back as well. Vangaži is really special because of the revolutionary grafitti wall where they hold some contests from time to time so the content gets changed regularly.",
+        "RigaDesc1": "Of course, where else can I travel through to get to my University if not Riga? Look at this magnificent view I captured from my workplace that's on my way to the university. Oh, and there's me sometimes having to do an hour of work before university... hihi",
+        "RigaDesc2": "And this is the street I take each day to reach my Latvian University. Meet Krisjana Barona street that is named after the Latvian writer and father of Dainas. There's always a lot of pedestrians and cyclists taking this street each day and no surprise since it is located in the heart of Riga Centre. Last stop - Latvian University!"
     }
 }
