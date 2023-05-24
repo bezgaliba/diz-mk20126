@@ -7,32 +7,33 @@ import iekspagalms from './resources/pagalms.jpg';
 import darbs from './resources/darbs.jpg';
 import darbs2 from './resources/darbs2.jpeg';
 import senite from './resources/senite_length.jpg';
+import { useTranslation } from 'react-i18next';
 
 const Slaidshovs = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false);
+  const { t } = useTranslation();
 
   const images = [
     {
       src: iekspagalms,
-      text:
-        'non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."',
+      text: t('iekspagalms'),
     },
     {
       src: kvs,
-      text: 'Image 2',
+      text: t('kvs'),
     },
     {
       src: senite,
-      text: 'Image 2',
+      text: t('senite'),
     },
     {
       src: darbs2,
-      text: 'Image 3',
+      text: t('darbs2'),
     },
     {
       src: darbs,
-      text: 'Image 4',
+      text: t('darbs'),
     },
   ];
 
@@ -60,6 +61,7 @@ const Slaidshovs = () => {
 
   return (
     <div id="Slaidshovs">
+      <h1 className="slideshow-header">{t('album')}</h1>
       <div className="slideshow">
         {images.map((image, index) => (
           <div className={`slide ${index === currentIndex ? 'active' : ''}`} key={index}>
