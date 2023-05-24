@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
 .square-container {
     display: flex;
     flex-direction: column;
@@ -5,7 +8,7 @@
     justify-content: center;
     width: 100%;
     height: 30rem;
-    background-color: #f2f2f2;
+    background-color: #a5c7b6;
     border: 0.0625rem solid #ccc;
     border-radius: 0.5rem;
     margin: 0 auto;
@@ -26,7 +29,7 @@
     height: 15rem;
     border: 2px solid #d1d5db;
     border-radius: 0px 50% 50% 50%;
-    transform: rotate(45deg) translateX(0.5rem) translateY(-6.5rem);
+    transform: translateX(0.5rem) translateY(-6.5rem);
     object-fit: cover;
   }
 
@@ -34,13 +37,25 @@
     width: 15rem;
     height: 15rem;
     border: 2px solid #d1d5db;
-    border-radius: 0px 50% 50% 50%;
-    transform: rotate(225deg) translateX(0.5rem) translateY(-6.5rem);
+    border-radius: 50% 50% 0% 50%;
+    transform: translateX(0.5rem) translateY(0rem) scalex(-1);
     object-fit: cover;
   }
   
-  .textDesc {
+  .textDesc1 {
+    margin-top: -5rem;
     font-size: 0.875rem;
-    transform:translateX(0rem) translateY(0rem);
     color: #333;
+    width: 30rem;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', serif;
+  }
+
+  .textDesc2 {
+    margin-top: -6rem;
+    font-size: 0.875rem;
+    color: #333;
+    width: 40rem;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', serif;
   }

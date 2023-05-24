@@ -1,20 +1,24 @@
 
 import React from 'react';
+import i18n from 'i18next';
+import { useTranslation } from 'react-i18next';
 import './css/Riga.css';
-import birini from './resources/birini.png';
-import ragana from './resources/ragana.png';
+import mework from './resources/mework.jpg';
+import meverm from './resources/meverm.jpg';
 
-const Riga = () => {
+function Riga (){
+  const { t } = useTranslation();
+    
     return(
     <div id="Riga">
       <div className="square-container">
         <div className="row-cont">
-          <img src={birini} alt="bildite" className="imageDesc2" />
-          <div className="textDesc">Text on the left</div>
+          <img src={meverm} alt="bildite1" className="imageDesc2" />
+          <div className="textDesc1">{t("RigaDesc1")}</div>
         </div>
         <div className="row-cont">
-          <div className="textDesc">Text on the right</div>
-          <img src={ragana}  alt="Image 2" className="imageDesc1" />
+          <div className="textDesc2">{t("RigaDesc2")}</div>
+          <img src={mework}  alt="bildite2" className="imageDesc1" />
         </div>
       </div>
     </div>

@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import './css/Poga.css';
 
 const Poga = () => {
   const [showButton, setShowButton] = useState(false);
+
+  const { t } = useTranslation();
 
   const handleScroll = () => {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -19,7 +22,7 @@ const Poga = () => {
     <button
       className={`scroll-to-top-button ${showButton ? 'show' : ''}`}
       onClick={scrollToTop}
-      title="Scroll To Top"
+      title={t("scrollMe")}
     >
       &#8593;
     </button>

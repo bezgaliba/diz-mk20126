@@ -2,14 +2,14 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background-color: #c01717;
     color: #fff;
     border: none;
     outline: none;
-    font-size: 20px;
+    font-size: 40px;
     display: none;
     justify-content: center;
     align-items: center;
