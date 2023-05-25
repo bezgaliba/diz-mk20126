@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import './css/Riga.css';
 import mework from './resources/mework.jpg';
 import meverm from './resources/meverm.jpg';
+import meBP from './resources/meBP.jpeg';
 
 function Riga (){
   const { t } = useTranslation();
@@ -14,7 +15,7 @@ function Riga (){
       <div className="square-container">
         <h1 className='riga-head'>{t("RigaTitle")}</h1>
         <div className="row-cont">
-          <img src={meverm} alt="bildite1" className="imageDesc2" />
+          <img src={meBP} alt="bildite1" className="imageDesc2" />
           <div className="textDesc1">{t("RigaDesc1")}</div>
         </div>
         <div className="row-cont">

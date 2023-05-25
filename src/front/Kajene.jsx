@@ -12,7 +12,7 @@ function Footer() {
         {t("footerNote")}
         <br></br><br></br>
         <i><a href="https://github.com/bezgaliba/diz-mk20126" className="link">github.com/bezgaliba </a></i><span className='dot'>x</span>
-        <img src={dflogo} alt="Birinu pils" className="logo" />
+        <a href="https://df.lu.lv/"><img src={dflogo} alt="Birinu pils" className="logo" /></a>
       </p>
     </footer>
   );

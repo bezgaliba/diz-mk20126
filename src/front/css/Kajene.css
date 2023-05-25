@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
 .footer {
     background-color: rgb(136, 136, 136);
-    padding-top: 3rem;
-    padding-bottom: 0.4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.3rem;
     text-align: center;
   }
   
   .footer-text {
     color: white;
     font-size: 14px;
+    font-family: 'Source Sans Pro', serif;
   }
 
   .link {

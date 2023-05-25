@@ -6,6 +6,9 @@ import kvs from './resources/KVS.jpg';
 import iekspagalms from './resources/pagalms.jpg';
 import darbs from './resources/darbs.jpg';
 import darbs2 from './resources/darbs2.jpeg';
+import verm from './resources/verm.jpeg';
+import LU from './resources/LU.jpeg';
+import Barona from './resources/Barona.jpeg';
 import { useTranslation } from 'react-i18next';
 
 const Slaidshovs = () => {
@@ -23,12 +26,20 @@ const Slaidshovs = () => {
       text: t('kvs'),
     },
     {
-      src: darbs2,
-      text: t('darbs2'),
-    },
-    {
       src: darbs,
       text: t('darbs'),
+    },
+    {
+      src: Barona,
+      text: t('barona'),
+    },
+    {
+      src: verm,
+      text: t('verm'),
+    },
+    {
+      src: LU,
+      text: t('LU'),
     },
   ];
 
