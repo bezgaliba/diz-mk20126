@@ -1,4 +1,4 @@
-import { useEffect, Suspense, useTransition, useRef } from 'react';
+import { Suspense } from 'react';
 import './css/Galvene.css';
 import i18n from 'i18next';
 import { useTranslation } from 'react-i18next';

@@ -1,15 +1,11 @@
-import react, { useRef }  from 'react';
+import React, { useRef }  from 'react';
 import './css/Titulkonteineris.css';
-import i18n from 'i18next';
 import { useTranslation } from 'react-i18next';
-import { Container } from 'react-bootstrap';
 import heroImage from './resources/heroimg.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import ParMani from './ParMani';
 
 function Titulkonteineris(props) {
-  const myStoryRef = useRef(null);
   const { t } = useTranslation();
   const ref = useRef(null);
 

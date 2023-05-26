@@ -1,6 +1,5 @@
 import React from 'react';
 import './css/Kajene.css';
-import i18n from 'i18next';
 import { useTranslation } from 'react-i18next';
 import dflogo from './resources/01_DF_logo_LV.png';
 

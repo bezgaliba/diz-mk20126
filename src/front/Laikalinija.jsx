@@ -17,10 +17,12 @@ const LaikaLinija = () => {
       });
     });
 
-    observer.observe(imageRef.current);
+    const currentImageRef = imageRef.current;
+
+    observer.observe(currentImageRef);
 
     return () => {
-      observer.unobserve(imageRef.current);
+      observer.unobserve(currentImageRef);
     };
   }, []);
 

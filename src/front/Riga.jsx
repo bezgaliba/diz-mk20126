@@ -1,10 +1,8 @@
 
 import React from 'react';
-import i18n from 'i18next';
 import { useTranslation } from 'react-i18next';
 import './css/Riga.css';
 import mework from './resources/mework.jpg';
-import meverm from './resources/meverm.jpg';
 import meBP from './resources/meBP.jpeg';
 
 function Riga (){

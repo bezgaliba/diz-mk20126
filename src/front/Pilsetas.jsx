@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './css/Pilsetas.css';
-import i18n from 'i18next';
 import { useTranslation } from 'react-i18next';
 import birini from './resources/birini.png';
 import ragana from './resources/ragana.png';
