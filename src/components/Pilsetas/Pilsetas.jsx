@@ -6,6 +6,8 @@ import ragana from '../../assets/image/ragana.png';
 import senite from '../../assets/image/senite.jpg';
 import vangazi from '../../assets/image/vangazi.png';
 
+import './Pilsetas.css'
+
 function Pilsetas() {
   const { t } = useTranslation();
   const [modalOpen, setModalOpen] = useState(false);

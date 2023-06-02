@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import dflogo from '../../assets/image/01_DF_logo_LV.png';
+import './Kajene.css'
 
 
 function Footer() {

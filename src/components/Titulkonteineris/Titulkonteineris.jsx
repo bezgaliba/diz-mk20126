@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import heroImage from '../../assets/image/heroimg.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import './Titulkonteineris.css'
 
 function Titulkonteineris(props) {
   const { t } = useTranslation();

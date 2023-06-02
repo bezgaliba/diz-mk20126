@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import './Poga.css'
 
 const Poga = () => {
   const [showButton, setShowButton] = useState(false);

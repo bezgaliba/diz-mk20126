@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import es from '../../assets/image/me.jpeg';
+import './ParMani.css';
 
 function ParMani() {
 

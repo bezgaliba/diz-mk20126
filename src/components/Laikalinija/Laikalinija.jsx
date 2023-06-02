@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import imgen from '../../assets/image/timeline_en.png';
 import imglv from '../../assets/image/timeline_lv.png';
+import './Laikalinija.css'
 
 const LaikaLinija = () => {
   const { t, i18n } = useTranslation();

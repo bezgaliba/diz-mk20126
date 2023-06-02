@@ -8,6 +8,7 @@ import verm from '../../assets/image/verm.jpeg';
 import LU from '../../assets/image/LU.jpeg';
 import Barona from '../../assets/image/Barona.jpeg';
 import { useTranslation } from 'react-i18next';
+import './Slaidshovs.css'
 
 const Slaidshovs = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
