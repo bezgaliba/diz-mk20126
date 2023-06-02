@@ -1,9 +1,8 @@
 
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import './css/Riga.css';
-import mework from './resources/mework.jpg';
-import meBP from './resources/meBP.jpeg';
+import mework from '../../assets/image/mework.jpg';
+import meBP from '../../assets/image/meBP.jpeg';
 
 function Riga (){
   const { t } = useTranslation();

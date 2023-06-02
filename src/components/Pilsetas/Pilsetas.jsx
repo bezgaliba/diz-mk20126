@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import './css/Pilsetas.css';
 import { useTranslation } from 'react-i18next';
-import birini from './resources/birini.png';
-import ragana from './resources/ragana.png';
-import senite from './resources/senite.jpg';
-import vangazi from './resources/vangazi.png';
+
+import birini from '../../assets/image/birini.png';
+import ragana from '../../assets/image/ragana.png';
+import senite from '../../assets/image/senite.jpg';
+import vangazi from '../../assets/image/vangazi.png';
 
 function Pilsetas() {
   const { t } = useTranslation();

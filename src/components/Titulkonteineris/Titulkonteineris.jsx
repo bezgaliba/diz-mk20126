@@ -1,7 +1,6 @@
 import React, { useRef }  from 'react';
-import './css/Titulkonteineris.css';
 import { useTranslation } from 'react-i18next';
-import heroImage from './resources/heroimg.png';
+import heroImage from '../../assets/image/heroimg.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 

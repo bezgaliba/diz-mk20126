@@ -1,6 +1,6 @@
 import React from 'react';
 
-function SetLangIcon(props) {
+function LangIcon(props) {
     const { currentLanguage } = props;
 
     const langIconSrc = currentLanguage === 'en' ? 'https://i.imgur.com/8ceIo9s.png' : 'https://i.imgur.com/aJOcEkz.png';
@@ -10,4 +10,4 @@ function SetLangIcon(props) {
     );
 }
   
-export default SetLangIcon;
+export default LangIcon;

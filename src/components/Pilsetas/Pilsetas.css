@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
 .modalText{
-    font-size: 22px;
+    font-size: 1.375rem;
     font-family: 'Source Sans Pro', serif;
     }
 
 :root {
-    font-size: 16px;
+    font-size: 1rem;
     background-color: lightgray;
   }
   

@@ -4,8 +4,8 @@
 .about-me-items {
   display: flex;
   justify-content: center;
-  padding: 0 100px;
-  height: 500px;
+  padding: 0 6.25rem;
+  height: 31.25rem;
   background-color: #a5c7b6;
 }
 
@@ -15,7 +15,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   background-color: #a5c7b6;
 }
 

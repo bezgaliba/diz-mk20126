@@ -1,6 +1,6 @@
 .hero-image {
     position: relative;
-    height: 700px;
+    height: 43.75rem;
     background-color: #000000;
     
   }
@@ -33,7 +33,7 @@
 
   .down-arrow {
     position: absolute;
-    top: 250px;
+    top: 15.625rem;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -41,7 +41,7 @@
   .down-arrow:hover {
     opacity: 0.8;
     transition: 0.5s;
-    margin-top: -10px;
+    margin-top: -0.625rem;
   }
 
     

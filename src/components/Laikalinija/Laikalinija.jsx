@@ -1,29 +1,15 @@
-import React, { useRef, useEffect } from 'react';
-import './css/Laikalinija.css';
-import imgen from './resources/timeline_en.png';
-import imglv from './resources/timeline_lv.png';
+import { setImgFadein } from 'Helper/setImgFadein';
+import React, { useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
+import imgen from '../../assets/image/timeline_en.png';
+import imglv from '../../assets/image/timeline_lv.png';
 
 const LaikaLinija = () => {
   const { t, i18n } = useTranslation();
   const imageRef = useRef(null);
 
   useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('fade-in');
-        }
-      });
-    });
-
-    const currentImageRef = imageRef.current;
-
-    observer.observe(currentImageRef);
-
-    return () => {
-      observer.unobserve(currentImageRef);
-    };
+    setImgFadein(imageRef)
   }, []);
 
   const getImagePath = () => {

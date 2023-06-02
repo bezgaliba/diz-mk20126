@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import './css/Slaidshovs.css';
-import kvs from './resources/KVS.jpg';
-import iekspagalms from './resources/pagalms.jpg';
-import darbs from './resources/darbs.jpg';
-import verm from './resources/verm.jpeg';
-import LU from './resources/LU.jpeg';
-import Barona from './resources/Barona.jpeg';
+import kvs from '../../assets/image/KVS.jpg';
+import iekspagalms from '../../assets/image/pagalms.jpg';
+import darbs from '../../assets/image/darbs.jpg';
+import verm from '../../assets/image/verm.jpeg';
+import LU from '../../assets/image/LU.jpeg';
+import Barona from '../../assets/image/Barona.jpeg';
 import { useTranslation } from 'react-i18next';
 
 const Slaidshovs = () => {

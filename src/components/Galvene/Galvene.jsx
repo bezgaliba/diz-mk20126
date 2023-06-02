@@ -1,17 +1,18 @@
-import { Suspense } from 'react';
-import './css/Galvene.css';
+import { LangIcon } from 'components';
 import i18n from 'i18next';
-import { useTranslation } from 'react-i18next';
+import { Suspense } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import SetLangIcon from './../back/controller';
+import Navbar from 'react-bootstrap/Navbar';
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-scroll';
 
 function Galvene() {
 
   const { t } = useTranslation();
+
+
 
   function onLangChange(eventKey){
     i18n.changeLanguage(eventKey);
@@ -42,7 +43,7 @@ function Galvene() {
               </Nav.Link>
             </Nav>
             <Nav className="ms-auto">
-              <NavDropdown className="dropdown" onSelect={onLangChange} title={<SetLangIcon currentLanguage={i18n.language} />} id="basic-nav-dropdown">
+              <NavDropdown className="dropdown" onSelect={onLangChange} title={<LangIcon currentLanguage={i18n.language} />} id="basic-nav-dropdown">
                 <NavDropdown.Item eventKey='en'>{t('English')}</NavDropdown.Item>
                 <NavDropdown.Item eventKey='lv'>{t('Latvian')}</NavDropdown.Item>
               </NavDropdown>

@@ -1,31 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './front/css/index.css';
-import Galvene from './front/Galvene';
-import reportWebVitals from './front/reportWebVitals';
-import './back/i18n.jsx'
+import reportWebVitals from 'reportWebVitals';
+import './translations/i18n'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import Titulkonteineris from './front/Titulkonteineris';
-import ParMani from './front/ParMani';
-import Pilsetas from './front/Pilsetas';
-import Slaidshovs from './front/Slaidshovs';
-import Riga from './front/Riga';
-import Kajene from './front/Kajene';
-import Poga from './front/Poga';
-import LaikaLinija from './front/Laikalinija';
+import App from 'App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Galvene />
-    <Titulkonteineris />
-    <ParMani />
-    <LaikaLinija />
-    <Pilsetas />
-    <Slaidshovs />
-    <Riga />
-    <Kajene />
-    <Poga />
+    <App />
   </React.StrictMode>
 );
 
