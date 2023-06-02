@@ -1,7 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import en from "./en.json"
-import lv from "./lv.json"
+import en from "translations/en.json"
+import lv from "translations/lv.json"
 
 const resources = {
     en,

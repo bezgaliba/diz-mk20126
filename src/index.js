@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from 'reportWebVitals';
-import './translations/i18n'
+import 'Helper/i18n'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import App from 'App';
 
