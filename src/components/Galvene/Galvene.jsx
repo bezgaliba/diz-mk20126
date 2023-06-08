@@ -29,8 +29,6 @@ function Galvene() {
             <Nav className="m-auto">
               <Nav.Link>
                 <Link to="par-mani" smooth={true} duration={500} offset={-70}>{t('ParMani')}</Link>
-              </Nav.Link>
-              <Nav.Link>
                 <Link to="Laikalinija" smooth={true} duration={500} offset={-70}>{t('LL')}</Link>
               </Nav.Link>
               <Nav.Link>
