@@ -12,7 +12,7 @@ function Footer() {
         {t("footerNote")}
         <br></br><br></br>
         <i><a href="https://github.com/bezgaliba/diz-mk20126" className="link">github.com/bezgaliba </a></i><span className='dot'>x</span>
-        <i><a href="https://www.df.lu.lv/" className="link">LU DF </a></i>
+        <i><a href="https://www.df.lu.lv/" className='linkDF'>LU DF </a></i>
       </p>
     </footer>
   );
